@@ -1,0 +1,39 @@
+/* Navigation bar */
+
+nav {
+  display: flex;
+  background-color: #ff6600;
+  align-items: center;
+  padding: 25px 0 25px 5px;
+  border-radius: 3px 3px 0 0;
+}
+
+.navbar-brand {
+  font-weight: bold;
+}
+
+.nav-link {
+  font-size: large;
+  margin: 0 3px;
+  padding : 0 10px 0 0;
+}
+
+.nav-right {
+  margin-left: auto;
+  text-align: right;
+  font-size: large;
+}
+
+@media (max-width : 850px) {
+  .nav-link {
+    font-size: smaller;
+  }
+  nav {
+    display : flex;
+    align-items:center; 
+    padding: 10px 0 10px 0;
+  }
+  
+} 
+  
+
